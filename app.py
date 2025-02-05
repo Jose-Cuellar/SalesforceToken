@@ -1,6 +1,5 @@
 from flask import *
 import requests
-import time
   
 app = Flask(__name__)
 
