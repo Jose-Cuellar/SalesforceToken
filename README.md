@@ -1,8 +1,9 @@
 Salesforce Token Generator
+
 Este proyecto permite obtener un Access Token de Salesforce utilizando la autenticación basada en OAuth 2.0.
 
 Requisitos:
-    Antes de ejecutar el proyecto, asegúrate de tener lo siguiente:
+1. Antes de ejecutar el proyecto, asegúrate de tener lo siguiente:
     - Python 3.8.10 instalado
     - Dependencias necesarias (listadas abajo)
     - Una cuenta de Salesforce y acceso a una aplicación conectada con OAuth habilitado
