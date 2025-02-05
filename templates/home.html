@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <script>
+        setTimeout(function(){
+            window.location.href = "{{ url_for('GetTokenSalesforce') }}";
+        }, 5000);
+    </script>
+    <style>
+        .content{
+            padding: 20px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <strong>Mensaje: </strong><span>{{ messagge }}</span>
+    </div>
+</body>
+</html>
